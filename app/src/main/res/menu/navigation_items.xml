@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/ChatBot"
+        android:icon="@drawable/ic_baseline_chat_24"
+        android:title="Chat">
+
+    </item>
+    <item
+        android:id="@+id/Map"
+        android:icon="@drawable/ic_baseline_map_24"
+        android:title="Map">
+
+    </item>
+    <item
+        android:id="@+id/Weather"
+        android:icon="@drawable/rain"
+        android:title="Check Weather">
+
+    </item>
+
+    <item
+        android:id="@+id/LogOut"
+        android:icon="@drawable/ic_baseline_logout_24"
+        android:title="Log Out">
+
+    </item>
+
+</menu>
