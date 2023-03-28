@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Packages"
+    tools:ignore="SpeakableTextPresentCheck">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Best Packages available"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/package_1"
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="5dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="20dp">
+
+            <LinearLayout
+                android:id="@+id/layer2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="105dp"
+                    android:background="@drawable/p1"></ImageView>
+
+                <TextView
+
+                    android:id="@+id/package_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jaipur Jodhpur Udaipur Tour Package - Pearls of Rajasthan"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+
+                    android:id="@+id/package_details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:drawableStart="@drawable/clock"
+                    android:drawablePadding="15dp"
+                    android:text="5 Nights / 6 Days"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+
+                    android:id="@+id/package_details1"
+                    android:layout_width="311dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:drawableStart="@drawable/location"
+                    android:drawablePadding="10dp"
+                    android:text="Jaipur(2N) → Jodhpur(1N) → Udaipur(2N)"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+
+                    android:id="@+id/package_details2"
+                    android:layout_width="285dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:drawableStart="@drawable/moneybag2"
+                    android:drawingCacheQuality="auto"
+                    android:text="This trip is completely customisable"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/package_details4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:drawableStart="@drawable/rupee"
+                    android:text="18,999 per adult onwards"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <Button
+                    android:id="@+id/btn_booked"
+                    android:layout_width="100dp"
+                    android:layout_height="38dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/black"
+                    android:text="Booked"
+                    android:textColor="#EAE3E3"
+                    app:rippleColor="#F6F0F0"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>
